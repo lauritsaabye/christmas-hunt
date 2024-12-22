@@ -1,7 +1,6 @@
 // App.tsx
 import { useEffect, useState } from 'react';
 import './App.css';
-import img2 from './assets/react.svg';
 import { db } from './firebase';
 import { collection, onSnapshot, doc, updateDoc } from 'firebase/firestore';
 
